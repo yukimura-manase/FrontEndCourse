@@ -1,0 +1,30 @@
+
+< Gunmar-WebSiteの仕様書 および 設計 >
+
+[ WebSite-概要 ]
+
+1. Gunmarを旅するための案内WebSite
+
+[ デザインの模写対象 ]
+
+PAS-POL
+https://pas-pol.jp/
+
+
+[ Pageの設計 ]
+
+1. Home画面
+
+
+2. 
+
+
+
+
+
+
+
+
+
+
+

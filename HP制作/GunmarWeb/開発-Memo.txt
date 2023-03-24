@@ -1,0 +1,45 @@
+
+< GunmarWebサイトの開発-Memo🔥 >
+
+
+
+npm i leaflet --save
+
+
+
+Leaflet はじめの一歩
+https://qiita.com/sugasaki/items/3ff1662652305c657577
+
+
+
+
+< スライドショーの作成🔥 >
+
+
+
+
+スライドショー
+https://zenn.dev/ojk/books/intro-to-javascript/viewer/js-slideshow
+
+
+
+
+
+
+
+react-dom.development.js:86 Warning: ReactDOM.render is no longer supported in React 18. 
+
+Use createRoot instead. 
+
+Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+
+
+react-dom.development.js:86 警告: ReactDOM.render は React 18 ではサポートされなくなりました。
+
+代わりに createRoot を使用してください。 
+
+新しい API に切り替えるまで、アプリは React 17 を実行しているかのように動作します。詳細: https://reactjs.org/link/switch-to-createroot
+
+
+
+

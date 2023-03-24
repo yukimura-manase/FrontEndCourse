@@ -1,0 +1,51 @@
+
+<style>
+    ul.slides {
+        text-align: center;
+    }
+    /* 1. Defaultは、Slide を非表示にしておく */
+    ul.slides li {
+        display:none;
+        list-style:none;
+    }
+    ul.slides li img {
+        width:800px;
+        height:auto;
+    }
+</style>
+
+<ul id="slider" class="slides">
+	<li><a href="#ロボ玉"><img src="./ロボ玉.jpg" alt="ロボ玉" width="800px" height="auto"></a></li>
+	<li><a href="#robotama"><img src="./robotama.jpg" alt="ロボ玉" width="800px" height="auto"></a></li>
+	<li><a href="#robotama-2"><img src="./robotama-2.jpg" alt="ロボ玉" width="800px" height="auto"></a></li>
+</ul>
+
+<script>
+
+    // 2. スライド用のliタグを全て取得
+    const slides = document.getElementById('slider').getElementsByTagName('li');
+
+    // 3. スライド表示用の関数を呼び出す（引数はスライドの切り替え時間）
+    viewSlide(3000);
+
+    function viewSlide(ms_time, slide_no = -1)
+    {
+        // 現在のスライドを消す
+        if (slides[slide_no]) {
+            slides[slide_no].style.display = 'none';
+        }
+        // スライド番号をカウントアップ
+        slide_no++;
+        if (slides[slide_no]) {
+            // 次のスライドを表示
+            slides[slide_no].style.display = 'block';
+        } else {
+            // 次のスライドがなければ最初のスライドを表示
+            slides[0].style.display = 'block';
+            slide_no = 0;
+        }
+
+        // 指定した時間後に、自らを呼びだす！
+        setTimeout(function(){viewSlide(ms_time, slide_no);}, ms_time);
+    }
+</script>

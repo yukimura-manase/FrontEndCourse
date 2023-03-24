@@ -1,0 +1,18 @@
+
+
+【CSS】animation・keyframesを徹底解説
+https://webdesignday.jp/inspiration/technique/css/5167/
+
+
+[CSS アニメーション] CSSのみで作るスライドショー
+https://atelier-light.com/blog/full_screen_slide_animation01/
+
+
+CSSだけで流れ続けるスライダーを作ってみる
+https://www.evoworx.co.jp/blog/css-non-stop-slider/
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+
+
+
+
+< 画像のアスペクト比を維持する🔥 >
+
+
+【CSS】aspect-ratioでアスペクト比(縦横比)を固定したレスポンシブ対応方法を解説
+https://miyattiblog.com/fixed-aspect-ratio/
+
+
+
+
+< Slider作成関連🔥 >
+
+JavaScriptでスライドショーみたいな画像切替え（jQueryなし）
+https://blog.ver001.com/javascript-image-slides/
+
+
+javascriptでボタン付きスライドを作成する（jQueryなし）
+https://notetoself-dy.com/javascript-slide/
+
+
+CSSとJavaScriptでスワイプ操作にも対応した簡単なスライドを自作する
+https://blog.ver001.com/css-javascript-slide-swipe/
+
+
+【実装例あり】スライダーSwiper.jsの基本的な使い方、機能解説
+https://kiomiru.co.jp/blog/coding/swiper-js/
+
+

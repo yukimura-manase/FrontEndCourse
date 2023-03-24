@@ -1,0 +1,236 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>神聖グンマー帝国の逆襲</title>
+    <meta name="description" content="神聖グンマー帝国の逆襲 Official Web サイト">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Reset-CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+    <!-- CSS-Loading -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/arrow.css">
+
+    <!-- LeafletのLibraryをLoadする -->
+    <link rel="stylesheet" href="./node_modules/leaflet/dist/leaflet.css" />
+    <script src="./node_modules/leaflet/dist/leaflet.js"></script>
+
+</head>
+<body>
+
+    <header id="header">
+        <div class="head-wrapper">
+            <h1 class="title">
+                <img src="./img/Robotama-Lab.png" alt="Robotama Lab" width="35%" height="80%">
+                <a href="https://masanyon.com/robotama-%e3%83%ad%e3%83%9c%e7%8e%89%e3%81%a8%e3%81%af/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/tama.jpg" alt="ぷるんぷるんなロボ玉" class="robotama">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#news">News</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#works">Works</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://masanyon.com/" target="_blank" rel="noopener noreferrer">Blog</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/masanyon1212" target="_blank" rel="noopener noreferrer">
+                            <img src="./img/twitter-icon.png" alt="Twitter Icon" width="50px" height="50px">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- MainVisual -->
+        <section id="mainvisual">
+
+
+            <!-- SlideShow -->
+            <div id="slideshow">
+                <span class="arrow leftArrow"></span>
+                <div id="slidebox">
+                    <img id="photo" alt="MainVisual">
+
+                    <!-- タイマー表示のElementを追加する -->
+                    
+                </div>
+                <span class="arrow rightArrow"></span>
+            </div>
+            
+        </section>
+        
+        <!-- News -->
+        <section id="news" class="wrapper section-block">
+            <h2 class="section-title">
+                <span class="en">NEWS</span>
+                <span class="ja">ニュース</span>
+            </h2>
+            <ul class="news-list">
+                <li>
+                    <time datetime="2021-01-01">2023/1/2</time>
+                    <span class="news-highlight">NEWS</span>
+                    <p>ポートフォリオサイトを開設しました。</p>
+                </li>
+                <li>
+                    <time datetime="2021-01-01">2021.01.01</time>
+                    <span class="news-highlight">NEWS</span>
+                    <p>タイトルタイトルタイトルタイトル</p>
+                </li>
+                <li>
+                    <time datetime="2021-01-01">2021.01.01</time>
+                    <span class="news-highlight">NEWS</span>
+                    <p>タイトルタイトルタイトルタイトル</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section-block">
+            <div class="img-box"><img src="./img/RobotamaBattle.png" alt="About"></div>
+            <div class="content">
+                <h2 class="section-title">
+                    <span class="en">ABOUT</span>
+                    <span class="ja">私たちについて</span>
+                </h2>
+                <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+                <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+                <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+            </div>
+        </section>
+
+        <!-- Business -->
+        <section id="business" class="wrapper section-block">
+            <div>
+                <h2 class="section-title">
+                    <span class="en">BUSINESS</span>
+                    <span class="ja">事業内容</span>
+                </h2>
+            </div>
+
+            <div class="business-block">
+
+                <!-- Left-Block -->
+                <div class="left">
+                    <div class="content">
+                        <p class="title">Web制作・マーケティング</p>
+                        <img src="./img/business1.jpg" alt="Business1">
+                    </div>
+                    <div class="content">
+                        <p class="title">インターネットメディア事業</p>
+                        <img src="./img/business2.jpg" alt="Business2">
+                    </div>
+                </div>
+
+                <!-- Right-Block -->
+                <div class="right">
+                    <div class="content">
+                        <p class="title">プロモーション企画・制作</p>
+                        <img src="./img/business3.jpg" alt="Business3">
+                    </div>
+                    <div class="content">
+                        <p class="title">ソーシャル企画・運営</p>
+                        <img src="./img/business4.jpg" alt="Business4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company -->
+        <section id="company" class="wrapper section-block">
+            <div class="inner-box">
+                <h2 class="section-title">
+                    <span class="en">COMPANY</span>
+                    <span class="ja">会社情報</span>
+                </h2>
+                <dl class="company-info">
+                    <dt>会社名</dt>
+                    <dd>ウェブエンターテイメントデザイン株式会社</dd>
+                    <dt>所在地</dt>
+                    <dd>東京都渋谷区桜丘町99-9 West Building 3F</dd>
+                    <dt>代表</dt>
+                    <dd>ＸＸＸＸＸＸ</dd>
+                    <dt>設立</dt>
+                    <dd>2021年1月1日</dd>
+                    <dt>資本金</dt>
+                    <dd>3,000,000円</dd>
+                    <dt>事業内容</dt>
+                    <dd>Web制作・マーケティング</dd>
+                    <dd class="add">インターネットメディア事業</dd>
+                    <dd class="add">プロモーション企画・制作</dd>
+                    <dd class="add">ソーシャル企画・運営</dd>
+                </dl>
+            </div>
+            <div class="img-box">
+                <img src="./img/company.jpg" alt="Company">
+            </div>
+        </section>
+
+        <!-- Gunmar-Map-Section -->
+        <section class="wrapper section-block">
+            <h2 class="section-title">神聖グンマー帝国のMap</h2>
+            <div id="gunma-map"></div>
+        </section>
+
+
+    </main>
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="footer-info">
+                <div class="logo">
+                    <a href="index.html"><img src="./img/Robotama-Lab.png" alt="Robotama Lab" width="200px" height="100%"></a>
+                </div>
+                <div>
+                    <p>Web Entertainment Design Inc.</p>
+                    <p>West Building 3F</p>
+                    <p>9-99 Sakuragaokacho Shibuya-ku</p>
+                    <p>Tokyo, Japan 150-0031</p>
+                    <p>T/99-9999-9999</p>
+                </div>
+            </div>
+            <div class="copyright">&copy; Web Entertainment Design Inc.</div>
+        </div>
+    </footer>
+
+    <script>
+
+    const map = L.map('gunma-map', {
+        zoom: 5,
+        dragging:true, // マウスまたはタッチのドラッグで、マップを移動するかしないか。
+        touchZoom:true, // クリックまたはタッチで、マップをズームするかしないか。
+        scrollWheelZoom:true, // マウスのホイール操作で 、マップをズームするかしないか。
+        doubleClickZoom:true, // ダブルクリックで、マップをズームするかしないか。
+        boxZoom:true, // シフトキーを押しながらマウスをドラッグすることで、マップの表示範囲をズームするかしないか。
+        tap:true, // タップでマップのズーム操作をするかしないか。
+        keyboard:true, // キーボードの矢印又はプラス・マイナスキーでのマップ操作の可否。
+        zoomControl:true, // ズームコントロールの表示、非表示。
+    })
+    .setView([36.23, 139.04]); // 神聖グンマー帝国の緯度経度 => 東経・北緯 => E139°04′N36°23′
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', 
+    {
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 15, // maxZoom: ズームレベルの最大値を指定します。
+        minZoom: 3,  // minZoom: ズームレベルの最小値を指定します。
+    })
+    .addTo(map);
+
+    </script>
+
+    <script src="./js/slider.js"></script>
+</body>
+</html>
